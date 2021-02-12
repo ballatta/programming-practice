@@ -11,5 +11,4 @@ function handleAnswer(answer) {
     interf.close()
 }
 
-// TODO: ask for the user's name instead
 interf.question("Hi, what's your name?", handleAnswer)
