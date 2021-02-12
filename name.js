@@ -5,7 +5,6 @@ const interf = readline.createInterface({
     output: process.stdout
   });
 
-
 function handleAnswer(answer) {
     console.log(`It's nice to meet you, ${answer}`)
     interf.close()
