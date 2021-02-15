@@ -6,14 +6,15 @@ const interf = readline.createInterface({
   });
 
 function handleAnswer(answer) {
-    // voila! Now you have a safe space to deal with what the user said.
     if (answer === 'bob' || answer === 'alice') {
-    console.log(`It's nice to see you again, ${answer}!`)
-    interf.close()
+      // note the corrected indentation; again, style.
+      console.log(`It's nice to see you again, ${answer}!`)
+      interf.close()
     }
     else {
-    console.log(`We've not met before, but it's nice to meet you ${answer}!`)
-    interf.close()
+      // note the corrected indentation; again, style.
+      console.log(`We've not met before, but it's nice to meet you ${answer}!`)
+      interf.close()
     }
 }
 

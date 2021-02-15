@@ -7,10 +7,15 @@ const interf = readline.createInterface({
 
 function handleAnswer(answer) {
     let sum = 0
-    for (i=1; i<=parseInt(answer); i++) {
+    // always put whitespace around operators for readibility; again, just
+    // a style thing.
+    for (i = 1; i <= parseInt(answer); i++) {
         sum += i;
         console.log(sum)
     }
+    // notice there is trailing whitespace after interf.close(). If you can
+    // configure VS Code to show that, it'd be good; that's just a code style
+    // thing.
     interf.close()  
 }
 

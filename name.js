@@ -6,9 +6,9 @@ const interf = readline.createInterface({
   });
 
 function handleAnswer(answer) {
-    // voila! Now you have a safe space to deal with what the user said.
     console.log(`It's nice to meet you, ${answer}`)
     interf.close()  
+    // ^ trailing whitespace
 }
 
 interf.question("Hi, what's your name?", handleAnswer)
