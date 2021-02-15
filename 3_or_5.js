@@ -9,8 +9,11 @@ function handleAnswer(answer) {
     let sum = 0
     for (i=1; i<=parseInt(answer); i++) {
         if (answer = 17) {
-            let multiples = (i % 3 === 0 | i % 5 === 0)
+            let multiples = 0
+            if (i % 3 === 0 | i % 5 === 0) {
+            multiples = 
             sum += multiples;
+            }
         }
         console.log(sum)
     }

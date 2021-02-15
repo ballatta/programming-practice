@@ -7,7 +7,7 @@ const interf = readline.createInterface({
 
 function handleAnswer(answer) {
     let sum = 0
-    for (i=0; i<=parseInt(answer); i++) {
+    for (i=1; i<=parseInt(answer); i++) {
         sum += i;
         console.log(sum)
     }
