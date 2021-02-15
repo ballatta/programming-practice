@@ -8,8 +8,12 @@ const interf = readline.createInterface({
 function handleAnswer(answer) {
     // voila! Now you have a safe space to deal with what the user said.
     if (answer === 'bob' || answer === 'alice') {
-    console.log(`It's nice to meet you, ${answer}`)
-    interf.close(
+    console.log(`It's nice to see you again, ${answer}!`)
+    interf.close()
+    }
+    else {
+    console.log(`We've not met before, but it's nice to meet you ${answer}!`)
+    interf.close()
     }
 }
 
