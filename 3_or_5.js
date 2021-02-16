@@ -12,14 +12,10 @@ const interf = readline.createInterface({
 function funkyFactorial(n) {
     let sum = 0;
     for (i=1; i<=n; i++) {
-        if (n === 17) {
             if (i % 3 === 0 || i % 5 === 0) {
                 sum += i
             }
         }
-        else
-        sum += i
-    }
     // with a return statement, a function exits and sends output back to
     // wherever it is called.
     return sum
