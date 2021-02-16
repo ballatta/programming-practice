@@ -15,7 +15,7 @@ else if (yetAnotherCondition) {
 }
 else
     statement
-*/    
+*/
 //^ more trailing whitespace after the slash
 
 let hour = 10;

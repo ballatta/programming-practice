@@ -7,7 +7,7 @@ const interf = readline.createInterface({
 
 function handleAnswer(answer) {
     console.log(`It's nice to meet you, ${answer}`)
-    interf.close()  
+    interf.close()
     // ^ trailing whitespace
 }
 
