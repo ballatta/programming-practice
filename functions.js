@@ -1,7 +1,7 @@
 function chapter_1() {
     /**
      * Chapter 1:
-     * 
+     *
      * Functions
      */
 
@@ -21,7 +21,7 @@ function chapter_1() {
     //QUESTION: What critical thing do we need to do to call a function as opposed
     //to simply referring to it?
 
-            // ANSWER: call_function_with() 
+            // ANSWER: call_function_with()
                 // You must use parentheses
 
     // things you can do with function references
@@ -45,14 +45,14 @@ function chapter_1() {
 
 function chapter_2(verbose) {
     /** Chapter 2
-     * 
+     *
      * Positional Arguments
-     * 
+     *
      * In programming, functions recieve positional arguments. Depending on
      * how the function is defined, a function can recieve any number of
      * arguments, and some of them can even be optional. Some functions,
      * like basic() above, take zero arguments.
-     * 
+     *
      * Arguments are the input to a function. Most of the time, you are going
      * to want a function to do something with data in a fixed.
      */
@@ -89,14 +89,14 @@ function chapter_2(verbose) {
 function chapter_3() {
     /**
      * Chapter 3
-     * 
+     *
      * Callback Functions
-     * 
+     *
      * Why do we use callback functions?
-     * 
+     *
      * We use callback functions because it allows us to send our code someplace
-     * else for it to be called at a later time. 
-     * 
+     * else for it to be called at a later time.
+     *
      */
 
     function handleNetworkResponse(response) {
