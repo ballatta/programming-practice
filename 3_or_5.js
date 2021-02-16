@@ -113,12 +113,12 @@ function runTests() {
     // multiples of 3: 3 + 6 + 9 + 12
     // multiples of 5: 5 + 10
     // mults. of both: 15
-    // expected total: 75 (3 + 6 + 9 + 12 + 5 + 10 + 15)
+    // expected total: 60 (3 + 6 + 9 + 12 + 5 + 10 + 15)
     assert.strictEqual(funkyFactorial(17), 60)
 
     // for n = 40
     // expect: 368
-    assert.strictEqual(funkyFactorial(40), 368)
+    assert.strictEqual(funkyFactorial(40), 408)
 
     // some more test cases...
     assert.strictEqual(funkyFactorial(1), 0)
