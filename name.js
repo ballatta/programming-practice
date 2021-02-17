@@ -8,3 +8,9 @@ const interf = readline.createInterface({
 handleAnswer = answer => (console.log(`It's nice to meet you, ${answer}`), interf.close());
 
 interf.question("Hi, what's your name?", handleAnswer)
+
+// alt
+interf.question(
+  "Hi, what's your name?",
+  (n) => console.log(`Hi, it's nice to meet you ${n}`)
+)
