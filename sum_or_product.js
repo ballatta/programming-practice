@@ -10,16 +10,11 @@ function handleAnswer(answer) {
     let product = 0
     let n = parseInt(answer)
     for (i=1; i<=n; i++) {
-        if (n === 17) {
-            if (i % 3 === 0 || i % 5 === 0) {
-                sum += i
-            }
-        }
+        if (answer2 = )
         else
         sum += i
-    }
     console.log(sum)
     interf.close()
-}
+    }
 
 interf.question("What is your number, n?", handleAnswer)

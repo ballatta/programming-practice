@@ -43,7 +43,7 @@ function chapter_1() {
 // UNCOMMENT to run chapter 1
 //chapter_1()
 
-function chapter_2(verbose) {
+function chapter_2(verbose = false) {
     /** Chapter 2
      *
      * Positional Arguments
@@ -59,10 +59,15 @@ function chapter_2(verbose) {
 
      // function that adds two numbers together
      function add(x, y) {
-         return x + y
+         const innerScopeSum =  x + y
+         return innerScopeSum
      }
 
-     const sum = add(1, 3)
+     const a = 1
+     const b = 3
+    // note that a new name is assigned based on position when the data travels
+    // into the function.
+     const sum = add(a, b)  
      console.log('1 + 3 = ' + sum)
 
      // You can call arguments whatever you want. They just have to follow a
