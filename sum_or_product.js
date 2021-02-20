@@ -17,7 +17,7 @@ function handleAnswer(answer) {
         sum += i;
     }
     for (i = 1; i <= n; i++) {
-        product += product * (i - 1)
+        product = product * i
       }
     interf.question('Sum or Factorial? (s/f)', handleSecondAnswer);
 }
