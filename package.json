@@ -1,0 +1,11 @@
+{
+  "name": "programming-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ballatta/programming-practice.git",
+  "author": "Brendan Allatta <brendan.allatta@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}

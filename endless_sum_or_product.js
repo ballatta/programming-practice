@@ -40,7 +40,7 @@ const interf = readline.createInterface({
   output: process.stdout,
 });
 
-interf.question("What is your number, n?", handleAnswer);
+interf.question("What is your number? (Or type \"e\" to exit)", handleAnswer);
 
 let sum = 0;
 let product = 1;
@@ -61,7 +61,10 @@ function handleSecondAnswer(answer) {
     console.log(sum);
   } else if (answer === "f") {
     console.log(product);
+  } else if (answer === "e") {
+    interf.close()
+  } else {
+    interf.question("Sum or Factorial? (s/f)", handleSecondAnswer)
   }
-  interf.close();
 }
 
